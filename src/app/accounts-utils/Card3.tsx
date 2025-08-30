@@ -56,7 +56,7 @@ function Card3() {
           <div className='flex flex-row items-center bg-[rgba(246,247,251,1)] py-2.5 px-4 gap-2 rounded-[1rem] justify-between'>
             <div className='flex flex-row items-center gap-2.5'>
               <div>
-                <Image src="/pic1.png" alt='pic1' height={36} width={36} />
+                <Image src="/Pic1.png" alt='pic1' height={36} width={36} />
               </div>
               <div className='font-medium text-[14px] leading-5 text-[rgba(71,84,103,1)]'>
                 Wade Warren
