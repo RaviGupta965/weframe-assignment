@@ -11,18 +11,18 @@ export default function Home() {
   return (
     <div className="flex flex-row">
       <div className="flex flex-row">
-        <div className={`
-    sticky h-full bg-white w-[max(22vw,240px)]
-    lg:block hidden z-50
-    transition-left duration-300
-    left-[-max(22vw,240px)]
-    lg:left-0
-    ${sidebarOpen ? "left-0" : "-left-full"}
-  `}>
-          <Sidebar />
+        <div
+          className={`
+          fixed top-0 left-0 h-full w-[max(22vw,240px)]
+          lg:static lg:block
+          z-50
+          ${sidebarOpen ? "" : "hidden"}
+        `}
+        >
+          <Sidebar toggleSidebar={toggleSidebar}/>
         </div>
         <div className="flex flex-col lg:w-[76vw] w-[100vw]">
-          <Header />
+          <Header toggleSidebar={toggleSidebar} />
           <Accounts />
           <Controller />
         </div>
