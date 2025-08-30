@@ -1,0 +1,23 @@
+.accounts-header {
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    gap: 24px;
+    
+}
+
+.seperator{
+    margin:1rem 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(233, 239, 246, 1);
+}
+.card-header{
+    font-size: 14px;
+    color: rgba(28, 34, 43, 1);
+}
