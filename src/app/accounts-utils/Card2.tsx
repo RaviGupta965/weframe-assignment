@@ -3,7 +3,7 @@ import React from 'react'
 
 function Card2() {
     return (
-        <div className='gap-5 flex flex-col w-[386px]'>
+        <div className='gap-5 flex flex-col w-full sm:w-[48%] lg:w-[30%]'>
             <div className='border-1 gap-6 p-6 shadow-[rgba(16,24,40,0.05)] rounded-xl border-[rgba(234,236,240,1)]'>
                 <div className='flex flex-col gap-2'>
                     <div className='flex flex-col font-[600] text-[16px] mb-1 leading-6 space-y-1.5 text-start'>
@@ -120,4 +120,4 @@ function Card2() {
     )
 }
 
-export default Card2
+export default Card2;

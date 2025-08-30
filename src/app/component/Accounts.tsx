@@ -5,7 +5,7 @@ import Card3 from '../accounts-utils/Card3'
 
 function Accounts() {
   return (
-    <div className='flex flex-row gap-2 p-6'>
+    <div className='flex flex-row flex-wrap gap-2 p-6'>
       <Card1 />
       <Card2/>
       <Card3/>

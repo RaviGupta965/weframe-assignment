@@ -3,7 +3,7 @@ import React from 'react'
 
 function Card1() {
     return (
-        <div className='gap-5 flex flex-col items-center w-[386px] border-1 shadow-[rgba(16,24,40,0.05)] rounded-xl border-[rgba(234,236,240,1)] bg-[rgba(255,255,255,1)]  p-6'>
+        <div className='gap-5  flex flex-col items-center w-full lg:w-[30%] border shadow-[rgba(16,24,40,0.05)] rounded-xl border-[rgba(234,236,240,1)] bg-white p-6'>
             <div className='accounts-header'>
                 <div>
                     Accounts Progress
