@@ -12,8 +12,10 @@ export default function Home() {
     <div className="flex flex-row">
       <div className="flex flex-row">
         <div className={`
-    block h-full bg-white w-[max(22vw,240px)]
+    sticky h-full bg-white w-[max(22vw,240px)]
+    lg:block hidden z-50
     transition-left duration-300
+    left-[-max(22vw,240px)]
     lg:left-0
     ${sidebarOpen ? "left-0" : "-left-full"}
   `}>
