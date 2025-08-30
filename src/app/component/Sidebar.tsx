@@ -5,7 +5,7 @@ import NavFooter from '../Navigation-utils/NavFooter'
 
 function Sidebar() {
   return (
-    <div className='bg-[#11455D] flex flex-col h-[100vh] sticky w-[22vw] py-6'>
+    <div className='bg-[#11455D] flex flex-col h-[100%] sticky w-[22vw] py-6'>
       <Navheader />
       <Navigationitem />
       <NavFooter />
